@@ -1,0 +1,26 @@
+name: Part_1.slnx
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Get code
+      uses: actions/checkout@v4
+
+    - name: Install .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+
+    - name: Build project
+      run: dotnet build
+
+    - name: Run app
+      run: |
+        echo User
+        echo exit
