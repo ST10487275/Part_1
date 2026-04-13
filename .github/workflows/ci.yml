@@ -24,7 +24,7 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
 
-    # 👇 ADD THIS PART
+    # ADD THIS PART
     - name: Run application
       shell: cmd
       run: |
