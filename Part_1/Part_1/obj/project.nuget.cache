@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zNKOTSj0s/0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Student\\source\\repos\\Part_1\\Part_1\\Part_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.5\\microsoft.win32.systemevents.10.0.5.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\system.drawing.common\\10.0.5\\system.drawing.common.10.0.5.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\system.windows.extensions\\10.0.5\\system.windows.extensions.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
